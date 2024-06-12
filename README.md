@@ -24,7 +24,7 @@ Speed (40MHz/80MHz) : Bouncy_Circles 45/85fps, boing_ball 105/135fps, Sprite_Rot
 |  5   | CS    | CS  Chip Select     |
 | 17   | DC    | DC  Data/Command    |
 | EN   | RES   | Reset               |
-|      | BLK   | 3.3V (or PWM-Pin)   |
+|      | BLK   | 3.3V ( or PWM-Pin ) |
 |      | VCC   | 3.3V                |
 |      | GND   | GND                 |
 
