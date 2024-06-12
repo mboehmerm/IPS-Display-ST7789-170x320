@@ -17,8 +17,6 @@ Speed (40MHz/80MHz) : Bouncy_Circles 45/85fps, boing_ball 105/135fps, Sprite_Rot
 
 ## Connections for ESP32 Wemos lite 
 
-Share SPI MOSI, MISO and CLK, so you need only 11 or 12 Pin's.
-
 | GPIO | TFT   | Description         |
 | ---: | :---- | :------------------ |
 | 23   | SDA   | SPI MOSI            |
