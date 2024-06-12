@@ -11,7 +11,10 @@ The display works stable with 80MHz.
 Speed (40MHz/80MHz) : Bouncy_Circles 45/85fps, boing_ball 105/135fps, Sprite_Rotating 153/305fps.
 
 [Arduino\TFT_graphicstest_PDQ.ino](Arduino/TFT_graphicstest_170x320/TFT_graphicstest_170x320.ino) ( modified )
+
 ![graphicstest](pictures/graphicstest.jpg)
+
+[Arduino\Bouncy_Circles.ino](Arduino/Bouncy_Circles/Bouncy_Circles.ino) ( not modified )
 
 ![Bouncy_Circles](pictures/Bouncy_Circles.jpg)
 
