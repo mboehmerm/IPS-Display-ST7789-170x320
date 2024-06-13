@@ -25,9 +25,7 @@ The display is easy to read from different angles.
 ![graphicstest](pictures/graphicstest_3.jpg)
 
 
-- [Arduino\Bouncy_Circles.ino](Arduino/Bouncy_Circles/Bouncy_Circles.ino) ( not modified )
-- [Arduino\SpriteRotatingCube.ino](Arduino/SpriteRotatingCube/SpriteRotatingCube.ino) ( not modified )
-- [Arduino\boing_ball.ino](Arduino/boing_ball/boing_ball.ino) ( not modified )
+[Arduino\Bouncy_Circles.ino](Arduino/Bouncy_Circles/Bouncy_Circles.ino) and [Arduino\SpriteRotatingCube.ino](Arduino/SpriteRotatingCube/SpriteRotatingCube.ino) and [Arduino\boing_ball.ino](Arduino/boing_ball/boing_ball.ino) ( not modified )
 
 ![Bouncy_Circles](pictures/dma_tests.jpg)
 
