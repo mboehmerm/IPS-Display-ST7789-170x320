@@ -1,31 +1,48 @@
 # IPS Display ST7789 1.9" 170x320
 
-# ! ! ! ! ! UNDER CONSTRUCTION ! ! ! ! !
+# ! UNDER CONSTRUCTION !
 
 Aliexpress Display ~3,50€, tested with a ESP32 Wemos lite, Arduino IDE 2.3.2 and TFT_eSPI 2.5.43.
 
-![Display_170x320](pictures/Display_170x320.jpg)
+Arduino IDE Board : "WEMOS LOLIN32 Lite"
 
-The display works stable with 80MHz.
+The display works stable with 80MHz even with a 50cm long cable between ESP32 and display.
+
+Backlight draws about 1.15mA.
 
 Speed (40MHz/80MHz) : Bouncy_Circles 45/85fps, boing_ball 105/135fps, Sprite_Rotating 153/305fps.
 
+![adabot](pictures/adabot.jpg)
+
+![Display_170x320](pictures/Display_170x320.jpg)
+
+The display is easy to read from different angles.
+
+![angle](pictures/angles.jpg)
+
 [Arduino\TFT_graphicstest_PDQ.ino](Arduino/TFT_graphicstest_170x320/TFT_graphicstest_170x320.ino) ( modified )
 
-![graphicstest](pictures/graphicstest.jpg)
+![graphicstest](pictures/graphicstest_3.jpg)
 
-[Arduino\Bouncy_Circles.ino](Arduino/Bouncy_Circles/Bouncy_Circles.ino) ( not modified )
 
-![Bouncy_Circles](pictures/Bouncy_Circles.jpg)
+- [Arduino\Bouncy_Circles.ino](Arduino/Bouncy_Circles/Bouncy_Circles.ino) ( not modified )
+- [Arduino\SpriteRotatingCube.ino](Arduino/SpriteRotatingCube/SpriteRotatingCube.ino) ( not modified )
+- [Arduino\boing_ball.ino](Arduino/boing_ball/boing_ball.ino) ( not modified )
 
-## Connections for ESP32 Wemos lite 
+![Bouncy_Circles](pictures/dma_tests.jpg)
+
+[Arduino\show_pictures.ino](Arduino/show_pictures/show_pictures.ino) 
+
+![show_pictures](pictures/show_pictures.jpg)
+
+## Connections for Wemos Lolin32 lite 
 
 | GPIO | TFT   | Description         |
 | ---: | :---- | :------------------ |
-| 23   | SDA   | SPI MOSI            |
-| 18   | SCK   | SPI CLK             |
-|  5   | CS    | CS  Chip Select     |
-| 17   | DC    | DC  Data/Command    |
+| 23   | SDA   | MOSI Hardware SPI   |
+| 18   | SCK   | CLK  Hardware SPI   |
+|  5   | CS    | CS                  |
+| 17   | DC    | DC                  |
 | EN   | RES   | Reset               |
 |      | BLK   | 3.3V ( or PWM-Pin ) |
 |      | VCC   | 3.3V                |
