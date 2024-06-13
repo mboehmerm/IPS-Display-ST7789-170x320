@@ -93,9 +93,9 @@ Create a new file [Arduino\libraries\Setup407_ST7789_320x170.h](Arduino/librarie
 #define SMOOTH_FONT
 
 // Other options
+//#define SPI_READ_FREQUENCY    20000000
 //#define SPI_FREQUENCY         40000000
 #define SPI_FREQUENCY         80000000
-//#define SPI_READ_FREQUENCY    20000000
 
 ```
 ## Test programs
