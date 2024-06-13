@@ -6,7 +6,7 @@ Arduino IDE Board : "WEMOS LOLIN32 Lite"
 
 The display works stable with 80MHz even with a 50cm long cable between ESP32 and display.
 
-Backlight draws about 1.15mA.
+The Display draws about 47mA, of which 41mA is the backlight, if pin BLK is connected to 3.3V.
 
 Speed (40MHz/80MHz) : Bouncy_Circles 45/85fps, boing_ball 105/135fps, Sprite_Rotating 153/305fps.
 
